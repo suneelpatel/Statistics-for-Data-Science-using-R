@@ -317,6 +317,9 @@ A confusion matrix is a table that is often used to describe the performance of 
 * Out of those 165 cases, the classifier predicted “yes” 110 times, and “no” 55 times
 * In reality, 105 patients in the sample have the disease, and 60 patient do not
 
+##### (A): Type I Error: We predict yes, but they don’t actually have the disease (Also known as Type I Error)
+
+##### (B): Type II Error: We predict No, but they actually do have the disease (Also known as Type II Error)
 
 ### Sensitivity:
 * Sensitivity (also called the true positive rate, the recall, or probability of detection in some fields) measures the proportion of positives that are correctly identified
