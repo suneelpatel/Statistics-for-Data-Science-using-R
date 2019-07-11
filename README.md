@@ -309,14 +309,20 @@ A confusion matrix is a table that is often used to describe the performance of 
 * Confusion matrix represents a tabular presentation of Actual Vs Predict Value
 * You can calculate the accuracy of your model with:
 
-                  True Positive + True Negative
-# ---------------------------------------------------------------
- True Positive + True Negative + False Positive + False Negative
+          (True Positive + True Negative) / (True Positive + True Negative + False Positive + False Negative)
+
+#### Example: 
+* There are two possible predicted classes: “yes” and “no”
+* The classifier made a total of 165 predictions
+* Out of those 165 cases, the classifier predicted “yes” 110 times, and “no” 55 times
+* In reality, 105 patients in the sample have the disease, and 60 patient do not
 
 
-### Sensitivity 
+### Sensitivity:
 
-### Specificity 
+
+### Specificity:
+
 
 
 # 7. Probability and it's Uses
