@@ -234,3 +234,16 @@ Mean – Mode = 3 (Mean - Median)
 
 Mode = 3Median – 2Mean 
 
+
+### (2) Measure of Spread (Variability / Dispersion) 
+A measure of spread, sometimes also called a measure of dispersion or measure of variability is used to describe the variability in a sample or population.
+
+It is usually used in conjunction with measure of central tendency, such as the mean or median, to provide an overall description of a set of data.
+
+##### (a) Range 
+##### (b) Percentiles/Quartiles
+##### (c) Inter-Quartile Range (IQR) 
+##### (d) Variance
+##### (e) Standard Deviation
+##### (f) Skewness
+##### (g) Kurtosis
