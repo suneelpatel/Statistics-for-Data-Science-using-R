@@ -221,4 +221,16 @@ The median is that value of the given number of observations, which divides it i
 #### Mode: “The highest or maximum number of frequency”
 The mode is the most common observation of a data set, or the value in the data set that occurs most frequently.
 
+#### Comparison between median and mean:
+Median:
+•	Ignore the extreme value
+•	Tell the point from where 50% data is lesser and 50% is more
+
+Mean:
+•	All the data are given equal importance
+
+#### Relationship among all
+Mean – Mode = 3 (Mean - Median)
+
+Mode = 3Median – 2Mean 
 
