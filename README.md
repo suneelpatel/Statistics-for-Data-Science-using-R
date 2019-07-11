@@ -24,3 +24,20 @@ Enable the business to make intelligent, fact-based decision.
 11. Testing the Data
 12. Data Clustering
 13. Regression Modelling
+
+### What is statistics?
+Statistics Definition: (Science of Average and their Estimate)
+Statistics is the science of collecting, organizing, presenting, analyzing and interpreting data for specific purpose to help in making more effective decision.
+
+#### Why study statistics:
+To make more effective decision for the betterment of individual, society, business, nature and so on
+
+#### Statistical Analysis:
+
+Statistical analysis is implemented to manipulate, summarize, and investigate data, so that useful decision making information results are obtained.
+
+Two type of statistics:
+
+a)	Descriptive Statistics (used to describe the basic features of the data)
+
+b)	Inferential statistics (aims at learning characteristics of the population from a sample)
