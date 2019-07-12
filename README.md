@@ -19,11 +19,13 @@ Enable the business to make intelligent, fact-based decision.
 6. Information Gain and Entropy
 7. Probability and it's Uses
 8. Baye's Theorem
-9. Statistical Inference
-10. Hypothesis Testing
-11. Testing the Data
-12. Data Clustering
-13. Regression Modelling
+9. Probability Distribution:
+10. Statistical Inference
+11. Hypothesis Testing
+12. Testing the Data
+13. Data Clustering
+14. Regression Modelling
+
 
 ### What is statistics?
 Statistics Definition: (Science of Average and their Estimate)
@@ -452,10 +454,10 @@ Bayes' theorem can be stated as follows:
                            
                     The formula is: P(A|B) = P(A) P(B|A)P(B) 
 
-          Which tells us:	 	how often A happens given that B happens, written P(A|B),
-          When we know:	 	how often B happens given that A happens, written P(B|A)
- 	 	and how likely A is on its own, written P(A)
- 	 	and how likely B is on its own, written P(B)
+          Which tells us:	how often A happens given that B happens, written P(A|B),
+          When we know:	how often B happens given that A happens, written P(B|A)
+ 	 	          and how likely A is on its own, written P(A)
+ 	 	          and how likely B is on its own, written P(B)
                     
 #### Bayes Theorem Rule:
 
@@ -469,7 +471,7 @@ P(B|A) is called the **likelihood**; this is the probability of observing the ne
 
 P(A) is called the **prior**; this is the probability of our hypothesis without any additional prior information. In the above example, this would be the “probability of having cancer”.
 
-P(B) is called the marginal **likelihood**; this is the total probability of observing the evidence. In the above example, this would be the “probability of being a smoker”. In many applications of Bayes Rule, this is ignored, as it mainly serves as normalization.
+P(B) is called the marginal **likelihood**; this is the total probability of observing the evidence. In the below mention example, this would be the “probability of being a smoker”. In many applications of Bayes Rule, this is ignored, as it mainly serves as normalization.
 
 ##### Example:
 Let us say P(Fire) means how often there is fire, and P(Smoke) means how often we see smoke, then:
@@ -485,13 +487,16 @@ So the formula kind of tells us "forwards" P(Fire|Smoke) when we know "backwards
                         =	9%
           So the "Probability of dangerous Fire when there is Smoke" is 9%
 
+# 9. Probability Distribution:
 
-# 9. Statistical Inference
 
-# 10. Hypothesis Testing
+# 10. Statistical Inference
 
-# 11. Testing the Data
 
-# 12. Data Clustering
+# 11. Hypothesis Testing
 
-# 13. Regression Modelling
+# 12. Testing the Data
+
+# 13. Data Clustering
+
+# 14. Regression Modelling
