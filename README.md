@@ -18,8 +18,8 @@ Enable the business to make intelligent, fact-based decision.
 5. Descriptive Statistics
 6. Information Gain and Entropy
 7. Probability and it's Uses
-8. Baye's Theorem
-9. Probability Distribution:
+8. Probability Distribution
+9. Baye's Theorem
 10. Statistical Inference
 11. Hypothesis Testing
 12. Testing the Data
@@ -443,51 +443,7 @@ Rule of Multiplication The probability that Events A and B both occur is equal t
 P(A ∩ B) = P(A) P(B|A)
 
 
-# 8. Baye's Theorem
-##### Baye's Theorem:
-* Bayes' theorem (also known as Bayes' rule) is a useful tool for calculating conditional probabilities. 
-
-* Bayes’ Theorem is a way of finding a probability when we know certain other probabilities.
-
-Bayes' theorem can be stated as follows:
-
-                           
-                    The formula is: P(A|B) = P(A) P(B|A)P(B) 
-
-          Which tells us:	how often A happens given that B happens, written P(A|B),
-          When we know:	how often B happens given that A happens, written P(B|A)
- 	 	          and how likely A is on its own, written P(A)
- 	 	          and how likely B is on its own, written P(B)
-                    
-#### Bayes Theorem Rule:
-
-The rule has a very simple derivation that directly leads from the relationship between joint and conditional probabilities. First, note that P(A,B) = P(A|B)P(B) = P(B,A) = P(B|A)P(A). Next, we can set the two terms involving conditional probabilities equal to each other, so P(A|B)P(B) = P(B|A)P(A), and finally, divide both sides by P(B) to arrive at Bayes rule.
-
-In this formula, A is the event we want the probability of, and B is the new evidence that is related to A in some way.
-
-P(A|B) is called the **posterior**; this is what we are trying to estimate. In the above example, this would be the “probability of having cancer given that the person is a smoker”.
-
-P(B|A) is called the **likelihood**; this is the probability of observing the new evidence, given our initial hypothesis. In the above example, this would be the “probability of being a smoker given that the person has cancer”.
-
-P(A) is called the **prior**; this is the probability of our hypothesis without any additional prior information. In the above example, this would be the “probability of having cancer”.
-
-P(B) is called the marginal **likelihood**; this is the total probability of observing the evidence. In the below mention example, this would be the “probability of being a smoker”. In many applications of Bayes Rule, this is ignored, as it mainly serves as normalization.
-
-##### Example:
-Let us say P(Fire) means how often there is fire, and P(Smoke) means how often we see smoke, then:
-
-P(Fire|Smoke) means how often there is fire when we can see smoke 
-P(Smoke|Fire) means how often we can see smoke when there is fire
-
-So the formula kind of tells us "forwards" P(Fire|Smoke) when we know "backwards" P(Smoke|Fire)
-
-          Example: If dangerous fires are rare (1%) but smoke is fairly common (10%) due to barbecues, and 90% of dangerous fires make smoke then:
-          P(Fire|Smoke) = P(Fire) * P(Smoke|Fire) / P(Smoke) 
-                        = 1% x 90% / 10% 
-                        = 9%
-          So the "Probability of dangerous Fire when there is Smoke" is 9%
-
-# 9. Probability Distribution:
+# 8. Probability Distribution:
 We will learn this in two part = Probability + Distribution
 
 Probability is often associated with at least one event. This event can be anything. Basic examples of events include rolling a die or pulling a coloured ball out of a bag. In these examples the outcome of the event is random (you can’t be sure of the value that the die will show when you roll it), so the **variable that represents the outcome of these events is called a random variable (often abbreviated to RV)**.
@@ -554,6 +510,52 @@ The above table represents the probability distribution of the random variable X
 * Parameters of a probability function play a central role in defining the probabilities of the outcomes of a random variable.
 
 #### Central Limit Theorem (CLT)
+The central limit theorem (CLT) is simple. It just says that with a large sample size, sample means are normally distributed.
+
+
+# 9. Baye's Theorem
+##### Baye's Theorem:
+* Bayes' theorem (also known as Bayes' rule) is a useful tool for calculating conditional probabilities. 
+
+* Bayes’ Theorem is a way of finding a probability when we know certain other probabilities.
+
+Bayes' theorem can be stated as follows:
+
+                           
+                    The formula is: P(A|B) = P(A) P(B|A)P(B) 
+
+          Which tells us:	how often A happens given that B happens, written P(A|B),
+          When we know:	how often B happens given that A happens, written P(B|A)
+ 	 	          and how likely A is on its own, written P(A)
+ 	 	          and how likely B is on its own, written P(B)
+                    
+#### Bayes Theorem Rule:
+
+The rule has a very simple derivation that directly leads from the relationship between joint and conditional probabilities. First, note that P(A,B) = P(A|B)P(B) = P(B,A) = P(B|A)P(A). Next, we can set the two terms involving conditional probabilities equal to each other, so P(A|B)P(B) = P(B|A)P(A), and finally, divide both sides by P(B) to arrive at Bayes rule.
+
+In this formula, A is the event we want the probability of, and B is the new evidence that is related to A in some way.
+
+P(A|B) is called the **posterior**; this is what we are trying to estimate. In the above example, this would be the “probability of having cancer given that the person is a smoker”.
+
+P(B|A) is called the **likelihood**; this is the probability of observing the new evidence, given our initial hypothesis. In the above example, this would be the “probability of being a smoker given that the person has cancer”.
+
+P(A) is called the **prior**; this is the probability of our hypothesis without any additional prior information. In the above example, this would be the “probability of having cancer”.
+
+P(B) is called the marginal **likelihood**; this is the total probability of observing the evidence. In the below mention example, this would be the “probability of being a smoker”. In many applications of Bayes Rule, this is ignored, as it mainly serves as normalization.
+
+##### Example:
+Let us say P(Fire) means how often there is fire, and P(Smoke) means how often we see smoke, then:
+
+P(Fire|Smoke) means how often there is fire when we can see smoke 
+P(Smoke|Fire) means how often we can see smoke when there is fire
+
+So the formula kind of tells us "forwards" P(Fire|Smoke) when we know "backwards" P(Smoke|Fire)
+
+          Example: If dangerous fires are rare (1%) but smoke is fairly common (10%) due to barbecues, and 90% of dangerous fires make smoke then:
+          P(Fire|Smoke) = P(Fire) * P(Smoke|Fire) / P(Smoke) 
+                        = 1% x 90% / 10% 
+                        = 9%
+          So the "Probability of dangerous Fire when there is Smoke" is 9%
 
 
 # 10. Statistical Inference
