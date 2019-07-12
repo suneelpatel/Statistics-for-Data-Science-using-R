@@ -659,7 +659,14 @@ Statisticians follow a formal process to determine whether to reject a null hypo
 * **Analyze sample data**: Find the value of the test statistic (mean score, proportion, t statistic, z-score, etc.) described in the analysis plan.
 * **Interpret results**: Apply the decision rule described in the analysis plan. If the value of the test statistic is unlikely, based on the null hypothesis, reject the null hypothesis.
 
+### Decision Errors
+Two types of errors can result from a hypothesis test.
 
+#### Type I error. 
+A Type I error occurs when the researcher rejects a null hypothesis when it is true. The probability of committing a Type I error is called the significance level. This probability is also called alpha, and is often denoted by α.
+
+#### Type II error. 
+A Type II error occurs when the researcher fails to reject a null hypothesis that is false. The probability of committing a Type II error is called Beta, and is often denoted by β. The probability of not committing a Type II error is called the Power of the test.
 
 ### Decision Rules
 The analysis plan includes decision rules for rejecting the null hypothesis. In practice, statisticians describe these decision rules in two ways - with reference to a P-value or with reference to a region of acceptance.
