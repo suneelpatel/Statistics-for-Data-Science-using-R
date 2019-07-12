@@ -488,6 +488,8 @@ So the formula kind of tells us "forwards" P(Fire|Smoke) when we know "backwards
           So the "Probability of dangerous Fire when there is Smoke" is 9%
 
 # 9. Probability Distribution:
+We will learn this in two part = Probability + Distribution
+
 Probability is often associated with at least one event. This event can be anything. Basic examples of events include rolling a die or pulling a coloured ball out of a bag. In these examples the outcome of the event is random (you can’t be sure of the value that the die will show when you roll it), so the **variable that represents the outcome of these events is called a random variable (often abbreviated to RV)**.
 
 ### The 3 types of probability
@@ -504,8 +506,58 @@ The probability of the intersection of two or more events. Visually it is the in
 The conditional probability is the probability that some event(s) occur given that we know other events have already occurred. If A and B are two events then the conditional probability of A occurring given that B has occurred is written as P(A|B). 
 **Example:** The probability that a card is a four given that we have drawn a red card is P(4|red) = 2/26 = 1/13. (There are 52 cards in the pack, 26 are red and 26 are black. Now because we’ve already picked a red card, we know that there are only 26 cards to choose from, hence why the first denominator is 26).
 
+##### Distribution:
+Before we jump on to the explanation of distributions, let’s see what kind of data can we encounter. The data can be discrete or continuous.
+
+**Discrete Data**, as the name suggests, can take only specified values. For example, when you roll a die, the possible outcomes are 1, 2, 3, 4, 5 or 6 and not 1.5 or 2.45.
+
+**Continuous Data** can take any value within a given range. The range may be finite or infinite. For example, A girl’s weight or height, the length of the road. The weight of a girl can be any value from 54 kgs, or 54.5 kgs, or 54.5436kgs.
+
+##### Types of Distributions
+**1.Bernoulli Distribution**
+**2. Uniform Distribution**
+**3. Binomial Distribution**
+**4. Normal Distribution**
+**5. Poisson Distribution**
+**6. Exponential Distribution**
+
+#### Normal Distribution
+Normal distribution represents the behavior of most of the situations in the universe (That is why it’s called a “normal” distribution). The large sum of (small) random variables often turns out to be normally distributed, contributing to its widespread application. Any distribution is known as Normal distribution if it has the following characteristics:
+
+The mean, median and mode of the distribution coincide.
+The curve of the distribution is bell-shaped and symmetrical about the line x=μ.
+The total area under the curve is 1.
+Exactly half of the values are to the left of the center and the other half to the right.
+A normal distribution is highly different from Binomial Distribution. However, if the number of trials approaches infinity then the shapes will be quite similar.
+
+
+#### Probability Distribution:
+A probability distribution is a list of all of the possible outcomes of a random variable along with their corresponding probability values.
+
+A probability distribution is a table or an equation that links each outcome of a statistical experiment with its probability of occurrence. Consider the coin flip experiment described above. The table below, which associates each outcome with its probability, is an example of a probability distribution.
+
+          Number of heads	Probability
+          0	          0.25
+          1	          0.50
+          2	          0.25
+          
+The above table represents the probability distribution of the random variable X.
+
+#### Let’s summarise the main points:
+
+* A probability distribution is a list of outcomes and their associated probabilities.
+* We can write small distributions with tables but it’s easier to summarise large distributions with functions.
+* A function that represents a discrete probability distribution is called a probability mass function.
+* A function that represents a continuous probability distribution is called a probability density function.
+* Functions that represent probability distributions still have to obey the rules of probability
+* The output of a probability mass function is a probability whereas the area under the curve produced by a probability density function represents a probability.
+* Parameters of a probability function play a central role in defining the probabilities of the outcomes of a random variable.
+
+#### Central Limit Theorem (CLT)
+
 
 # 10. Statistical Inference
+
 
 
 # 11. Hypothesis Testing
