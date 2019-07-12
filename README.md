@@ -480,12 +480,22 @@ Before we jump on to the explanation of distributions, let’s see what kind of 
 #### Normal Distribution
 Normal distribution represents the behavior of most of the situations in the universe (That is why it’s called a “normal” distribution). The large sum of (small) random variables often turns out to be normally distributed, contributing to its widespread application. Any distribution is known as Normal distribution if it has the following characteristics:
 
-The mean, median and mode of the distribution coincide.
-The curve of the distribution is bell-shaped and symmetrical about the line x=μ.
-The total area under the curve is 1.
-Exactly half of the values are to the left of the center and the other half to the right.
-A normal distribution is highly different from Binomial Distribution. However, if the number of trials approaches infinity then the shapes will be quite similar.
+* The mean, median and mode of the distribution coincide.
+* The curve of the distribution is bell-shaped and symmetrical about the line x=μ.
+* The total area under the curve is 1.
+* Exactly half of the values are to the left of the center and the other half to the right.
+* A normal distribution is highly different from Binomial Distribution. However, if the number of trials approaches infinity then the shapes will be quite similar.
 
+##### Some of the properties of a standard normal distribution are mentioned below:
+* The normal curve is symmetric about the mean and bell shaped.
+* Mean, mode and median is zero which is the centre of the curve.
+* Approximately 68% of the data will be between -1 and +1 (i.e. within 1 standard deviation from the mean), 95% between -2 and +2 (within 2 SD from the mean) and 99.7% between -3 and 3 (within 3 SD from the mean)
+
+##### There are a few commonly used terms which we need to understand:
+* **Population** : Space of all possible elements from a set of data
+* **Sample** : consists of observations drawn from population
+* **Parameter** : measurable characteristic of a population such as mean, SD
+* **Statistic**: measurable characteristic of a sample
 
 #### Probability Distribution:
 A probability distribution is a list of all of the possible outcomes of a random variable along with their corresponding probability values.
