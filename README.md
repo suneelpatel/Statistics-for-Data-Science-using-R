@@ -638,6 +638,18 @@ We need the sampling distribution of the statistic
 
 
 # 11. Hypothesis Testing
+### What is Hypothesis Testing?
+A statistical hypothesis is an assumption about a population parameter. This assumption may or may not be true. Hypothesis testing refers to the formal procedures used by statisticians to accept or reject statistical hypotheses.
+
+#### Statistical Hypotheses
+The best way to determine whether a statistical hypothesis is true would be to examine the entire population. Since that is often impractical, researchers typically examine a random sample from the population. If sample data are not consistent with the statistical hypothesis, the hypothesis is rejected.
+
+#### There are two types of statistical hypotheses.
+
+#### Null hypothesis. 
+The null hypothesis, denoted by Ho, is usually the hypothesis that sample observations result purely from chance.
+#### Alternative hypothesis. 
+The alternative hypothesis, denoted by H1 or Ha, is the hypothesis that sample observations are influenced by some non-random cause.
 
 
 # 12. Testing the Data
