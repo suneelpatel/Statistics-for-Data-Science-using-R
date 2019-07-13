@@ -22,7 +22,7 @@ Enable the business to make intelligent, fact-based decision.
 9. Baye's Theorem
 10. Statistical Inference
 11. Hypothesis Testing
-12. Testing the Data
+12. Statistical Testing
 13. Data Clustering
 14. Regression Modelling
 
@@ -697,7 +697,41 @@ A test of a statistical hypothesis, where the region of rejection is on both sid
 **For example**, suppose the null hypothesis states that the mean is equal to 10. The alternative hypothesis would be that the mean is less than 10 or greater than 10. The region of rejection would consist of a range of numbers located on both sides of sampling distribution; that is, the region of rejection would consist partly of numbers that were less than 10 and partly of numbers that were greater than 10.
 
 
-# 12. Testing the Data
+# 12. Statistical Testing
+Statistical Tests are intended to decide weather a hypothesis about distribution of one or more populations should be accepted or rejected.
+
+Their are two type of statistical tests:
+#### (1) Parametric Tests
+#### (2) Non Parametric Tests
+
+#### Why to use Statistical Testing?
+* To calculate the difference in the sample and population means
+* To find the difference in sample means
+* To test the significance of association between two variables
+* To calculate several population means
+* To test the difference in proportions between two independent populations
+* To test the difference in proporation between sample and population
+
+#### What are parameters?
+* Parameters are numbers which summarize the data for the entrire population, while statistics are numbers which summarize the data from a sample
+* Parametric Testing is used for quanititve data and continuous variables
+
+#### (1) Parametric Tests : A parametric test makes assumption regarding population parameters and distribution
+##### (a) Z Testing
+##### (b) Student T-Testing
+##### (c) P Testing
+##### (d) ANOVA Testing
+
+#### (a) Z Testing:
+The Z Test is used for testing significance difference between two point estimates
+##### Assumptions for Z Test
+* The sample must be randomly selected and data must be quantitative
+* Sample should be larger
+* Data should follow a normal distribution
+
+#### (2) Non-Parametric Tests:
+
+### A/B Testing:
 ##### Problem 1: Two-Tailed Test
 
 The CEO of a large electric utility claims that 80 percent of his 1,000,000 customers are very satisfied with the service they receive. To test this claim, the local newspaper surveyed 100 customers, using simple random sampling. Among the sampled customers, 73 percent say they are very satisified. Based on these findings, can we reject the CEO's hypothesis that 80% of the customers are very satisfied? Use a 0.05 level of significance.
